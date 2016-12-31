@@ -12,8 +12,14 @@ public class ZZQKModel {
     //提起人
     private String TQR;
 
+    public ZZQKModel(){}
 
-    public  ZZQKModel(String SFCX, String ZZLY,String TQR){
+    public ZZQKModel(String SFCX, String ZZLY){
+        this.setSFCX(SFCX);
+        this.setZZLY(ZZLY);
+    }
+
+    public ZZQKModel(String SFCX, String ZZLY,String TQR){
         this.setSFCX(SFCX);
         this.setZZLY(ZZLY);
         this.setTQR(TQR);
