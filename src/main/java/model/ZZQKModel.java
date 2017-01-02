@@ -9,8 +9,6 @@ public class ZZQKModel {
     private String SFCX;
     //质证理由
     private String ZZLY;
-    //提起人
-    private String TQR;
 
     public ZZQKModel(){}
 
@@ -22,7 +20,6 @@ public class ZZQKModel {
     public ZZQKModel(String SFCX, String ZZLY,String TQR){
         this.setSFCX(SFCX);
         this.setZZLY(ZZLY);
-        this.setTQR(TQR);
     }
 
 
@@ -40,13 +37,5 @@ public class ZZQKModel {
 
     public void setZZLY(String ZZLY) {
         this.ZZLY = ZZLY;
-    }
-
-    public String getTQR() {
-        return TQR;
-    }
-
-    public void setTQR(String TQR) {
-        this.TQR = TQR;
     }
 }
